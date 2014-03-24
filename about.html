@@ -5,6 +5,7 @@
     <title>Dealmob: Deals for groups| Offers for groups | Find offers in your locality</title>
     <link href='css/bootstrap.css' rel='stylesheet' type='text/css' />
     <link href='css/style.css' rel='stylesheet' type='text/css' />
+    <link href='css/custom.css' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -15,7 +16,7 @@
         $(".scroll").click(function(event) {
             event.preventDefault();
             $('html,body').animate({
-                scrollTop: $(this.hash).offset().top
+                scrollTop: $(this.hash).offset().top - 100
             }, 1200);
         });
     });
@@ -52,56 +53,73 @@
         <!---//End-header---->
     </div>
 
-    <div class="top-grids" id="features">
-        <div class="wrap">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-3 ">
-                        <ul class="nav ">
-                            <li class="active"><a href="#">Overview</a>
-                            </li>
-                            <li><a href="#vision">Our Vision</a>
-                            </li>
-                            <li><a href="#team">Team</a>
-                            </li>
-                        </ul>
+    <div class="main-container">
+            <div class="wrap">
+                <div class="container-fluid">
+                    <div class="row">
 
+                        <div class="col-xs-3">
+                            <ul class="nav sidenav">
+                                <li class="active"><a href="#js-vision" class="scroll">Our Vision</a>
+                                </li>
+                                <li><a href="#js-team" class="scroll">Team</a>
+                                </li>
+                                <li><a href="#js-xteam" class="scroll">X-Team</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-8 main">
+
+                            <div id='vision' class="row">
+                                <div class='col-xs-12'>
+                                    <h3 id="js-vision">Our Vision</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leadfgdgp into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pudfgdgblishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                            <div id='team' class="row">
+                                <div class='col-xs-12'>
+
+                                    <h3 id="js-team">Our Team</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+
+                            <div id='xteam' class="row">
+                                <div class='col-xs-12'>
+
+                                    <h3 id="js-xteam">Our Team</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-xs-8 main">
-
-                        <div id='vision' class="row">
-                            <div class='col-xs-12'>
-                            <h3> Our Vision </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also <thead></thead> leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leadfgdgp into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pudfgdgblishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div></div>
-                        <div id='team' class="row">
-                           <div class='col-xs-12'>
-
-                            <h3> Our Team </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div></div>
-                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
             </div>
-        </div>
+
+            <div class="clear"></div>
+      
+
         <div class="footer">
             <div class="wrap">
                 <p>
-                    
+
                 </p>
                 <script type="text/javascript">
                 $(document).ready(function() {
-                    /*
+                    
 				var defaults = {
 		  			containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
 					scrollSpeed: 1200,
 					easingType: 'linear' 
 		 		};
-				*/
+				
 
                     $().UItoTop({
                         easingType: 'easeOutQuart'

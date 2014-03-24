@@ -1,0 +1,29 @@
+/* Overrides */
+ .top-nav li> a:hover {
+    text-decoration: none;
+}
+#vision, #team {
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+    border-bottom-color: #C5C5C5;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+.main-container {
+    padding: 7em 0 0 0;
+    background-size: 100%;
+    position: relative;
+    margin: 2px 0;
+}
+
+.sidenav{
+	position:fixed;
+}
