@@ -5,12 +5,13 @@
     <title>Dealmob: Deals for groups| Offers for groups | Find offers in your locality</title>
     <link href='css/bootstrap.css' rel='stylesheet' type='text/css' />
     <link href='css/style.css' rel='stylesheet' type='text/css' />
-     <link href='css/custom.css' rel='stylesheet' type='text/css' />
+    <link href='css/custom.css' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event) {
@@ -43,9 +44,6 @@
                     </li>
                     <li><a href="#demo" class="scroll">Demo</a>
                     </li>
-                    <li><a href="about.html">About Us</a>
-                    </li>
-
                 </ul>
             </div>
             <div class="clear"></div>
@@ -58,7 +56,7 @@
             <!--<h1><span>DealMob</span></h1>-->
             <img src="images/dealmoblogotext.png">
             <h2>Great deals for real groups</h2>
-            <p>Discover great deals in your neighborhood. Download app now!</p>
+            <p class="right">Discover great deals in your neighborhood. Download app now!</p>
             <div class="clear"></div>
             <div class="info-btns">
                 <ul>
@@ -75,7 +73,6 @@
         </div>
         <div class="clear"></div>
     </div>
-
 
     <div class="top-grids" id="features">
         <div class="wrap">
@@ -115,41 +112,42 @@
         <div class="mid-grids-center" id="demo">
             <div class="wrap">
                 <h3>DealMob app demo</h3>
-                <p>See how dealmob app can be used to find great deals in your neighborhood</p>
-                <iframe src="//player.vimeo.com/video/73528012?byline=0" width="80%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p class="center">See how dealmob app can be used to find great deals in your neighborhood</p>
+                <iframe src="http://player.vimeo.com/video/73528012?byline=0" width="80%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
 
-
-        <div class="footer">
-            <div class="wrap">
-                <p>
-                    
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <div class="center">
+                <ul class="footerNav">
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="about.html#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="faqs.html#terms">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="careers.html">Careers</a>
+                    </li>
+                    <li>
+                        <a href="faqs.html">FAQ</a>
+                    </li>
+                </ul>
                 </p>
-                <script type="text/javascript">
-                $(document).ready(function() {
-                    /*
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				*/
-
-                    $().UItoTop({
-                        easingType: 'easeOutQuart'
-                    });
-
-                });
-                </script>
-                <a href="#" id="toTop" style="display: block;">
-                    <span id="toTopHover" style="opacity: 1;"></span>
+            </div>
+            <div>
+                <p class="center">
+                    &copy; Copyrights Reserved 2014
+                </p>
+                <a href="#" id="toTop">
+                    <span id="toTopHover"></span>
                 </a>
             </div>
         </div>
-    </div>
-
 </body>
-
 </html>

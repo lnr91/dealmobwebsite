@@ -1,11 +1,14 @@
 /* Overrides */
  .top-nav li> a:hover {
     text-decoration: none;
+    color: #838383;
+}
+#vision, #team , #contact{
+    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 #vision, #team {
-    margin-bottom: 30px;
     border-bottom: 1px solid;
-    padding-bottom: 50px;
     border-bottom-color: #C5C5C5;
 }
 h3 {
@@ -18,12 +21,80 @@ p {
     text-align: justify;
 }
 .main-container {
-    padding: 7em 0 0 0;
+    padding: 6em 0 0 0;
     background-size: 100%;
     position: relative;
     margin: 2px 0;
 }
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.sidenav {
+    position:fixed;
+    text-align: right;
+}
 
-.sidenav{
-	position:fixed;
+.footer .wrap #toTop {
+    display: block;
+    bottom:35px;
+}
+.footer .wrap #toTopHover {
+    opacity: 1;
+}
+.footer .footerNav li {
+    display: inline-block;
+    margin-right:10px;
+    margin-left: 10px;
+}
+.footer .footerNav li a {
+    color: #2B2B2B;
+    font-size: 0.9em;
+    text-decoration: underline;
+    padding-top: 80px;
+     margin-top: -80px;
+}
+.footer .footerNav li a:hover {
+    //text-decoration: none;
+    //color: #838383;
+}
+.footer .wrap p {
+    font-size: 0.9em;
+}
+.footer .footerNav {
+    //float: left;
+}
+.footer {
+    padding: 0.1em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+}
+.sidenav {
+    width: 18%;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+}
+
+.anchor{
+  display: block;
+  height: 55px; 
+  margin-top: -55px; 
+  visibility: hidden;
 }
